@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+	<head>
+	<title>Julien Leroy, CV</title>
+	<link rel="Stylesheet" href="./csscv.css"/>
+	<meta charset="utf-8" >
+	</head>
+	
+	
+	
+		<html>
+			<body>
+				
+			<div class="tete"> 
+						<ul>
+							
+							<li>Julien Leroy</li>
+							<li class="email1">Julienr.leroy@gmail.com</li>
+						</ul>
+						
+			 </div>				
+
+			<div class="comp">
+					
+			<table>
+				<tr>
+					<th>
+						<img class="htmlico" src="./img/html.ico" /> 
+					</th>	
+					<th>
+						<img class="cssico" src="./img/css.ico" /> 
+					</th>			
+				</tr>
+				<tr>
+					<td>
+						<img class="phpico" src="./img/php.png" /> 
+					</td>
+					<td>
+						<img class="jsico" src="./img/js.png" /> 
+					</td>
+				</tr>
+			</table>
+
+			</div>
+
+					
+				
+			<hr color="black">
+			<p class="cv" >Curriculum Vitae
+			</p>
+			</hr>
+			<div class="scroll">
+
+				<h1 class="formulaire" >Formulaire d'Inscription</h1>
+				<form action="post" method="">
+				<div>
+					<input type="test" name="login" placeholder="Nom de compte" requiered="" autocomplete="off" />
+				</div>
+				<div>
+					<input type="password" name="mdp" placeholder="Mot de passe" requiered="" autocomplete="off" /><input type="password" name="mdp_verif" placeholder="Confirmer" requiered="" autocomplete="off" />
+				</div>
+				<div>
+					<input type="text" name="email" placeholder="Email" requiered="" autocomplete="off" />
+				</div>
+				<div>	
+					<input type="submit" value="Envoyer" name="send" /><input type="reset" value="reset" name="reset" />
+				</div>
+				</form>
+
+				<h2>Formulaire de Connexion</h2>
+				<form action="post" method="">
+					<div>
+						<input type="text" name="login" placeholder="Nom de compte" />
+					</div>
+					<div>
+						<input type="password" name="mdp" placeholder="Mot de passe" /> 
+					</div>
+					<div>
+						<input align="right" 	type="checkbox" value="1" name="remember_user" />Se souvenir
+					</div>
+						<input type="submit" value="Envoyer" name="send" />
+				</form>
+				<h3> Ecrivez.. </h3>
+					<div>
+						<input type="text" name="text_area" placeholder="Titre" requiered="" autocomplete="off" />
+					</div>
+					<div>
+						<textarea id="reponse" placeholder="Entrez votre text" class="textarea1" autocomplete="off">
+						</textarea>
+						<div>
+							<input type="submit" value="Envoyer" name="send" />
+						</div>
+					</div>
+					
+
+			</div>
+			<input type="button" id="-1" class="dip" value="Cacher les diplomes" name="button_op" onclick="addcontenu();" />
+			<input type="button" onclick="contenuon();" id="1" class="dip1" value="Afficher les diplomes" name="button_op" onclick="addcontenu();" />
+			<div class="op" id="0" >
+			<h4>Diplomes Scolaire</h4> 
+			
+				<ul>
+					<li>BAC PRO maintenance équipement Industriels</li>
+					<li>BEP Electrotechnique</li>
+				<ul>
+			</div>
+			
+			<script src="./js/js.js"></script></body>
+
+
+	</html>
