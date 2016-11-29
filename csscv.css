@@ -1,0 +1,141 @@
+body {
+
+	background-image:url('./img/silentmoon.jpg');
+	background-size:cover;
+
+}
+
+
+
+hr {
+
+	left:0;
+	right:0;
+	position: absolute;	
+
+}
+
+.op { 
+
+	position:absolute;
+	right:5px;
+	
+
+}
+
+.dip {
+	position:absolute;
+	margin-top:10px;
+	right:750px;
+	
+}
+
+.dip1 {
+	visibility:hidden;
+	position:absolute;
+	margin-top:10px;
+	right:750px;
+}
+
+.tete ul {
+	text-decoration:none;
+	list-style:none;
+	font-size:45px;
+	font-family:Impact;
+	display:inline;
+	text-align:center;
+	top:0;
+	
+}
+
+.tete ul li:hover {
+
+	color:red;
+	text-decoration : underline;
+	cursor:none;
+}
+
+.email1
+{
+	font-size:20px;
+
+}
+
+.scroll {
+	text-align:center;	
+	overflow:scroll;
+	overflow-x:hidden;
+	margin-top:10px;
+	position:absolute;
+	left:0;
+	height:246px;
+}
+
+.scrolloff {
+
+	
+	float:right;
+	margin-top:10px;
+	width:300px;
+	height:247px;
+	position:absolute;
+	right:0;
+}
+
+.code_html {
+	padding:20px;
+	background:#070e10;
+	width:1250px;	
+	height:auto;
+	color:white;
+}
+
+.comp {
+	margin-left:10%;
+	margin-top:70px;
+	width:150px;
+	height:120px;
+	color:black;
+	list-style:none;
+	padding:20px;
+	border:3px solid black;
+}
+
+.comp ul li {
+
+	list-style:none;
+}
+
+.comp th td {
+
+	text-align:center;
+
+}
+
+.comp img {
+
+	height:45px;
+	padding:10px;
+	margin-top:-9px;
+}
+
+.cv {
+
+	margin-top:-10px; 
+	float:right; 
+	margin-right:580px;
+}
+
+.formulaire {
+
+
+
+
+}
+
+.textarea1 {
+	width:250px;
+	height:90px;
+	resize:none;
+	color:black;
+}
