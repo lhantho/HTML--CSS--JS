@@ -1,27 +1,33 @@
+
+
+
+
+
 @media screen and (max-width: 1000px) {
   #langue {
     width:100px;
     height:auto;
+    box-shadow:none;
+    float:left;		
+ 	 }
+ 	 
+ 	 
+  #contact {
+	width:300px;
+	height:auto;
+	left:0;
+	top:300px;
 	box-shadow:none;
 	float:left;
-		
-  }
-   #contact {
-    width:300px;
-    height:auto;
-    left:0;
-    top:300px;
-	box-shadow:none;
-    float:left;
-   }
-    #diplomes {
+           }
+  #diplomes {
 	right:0;
 	width:300px;
 	box-shadow:none;
 	text-align:left;
-
-    }
-    #metier {
+	    }
+	    
+  #metier {
 	right:0;
 	top:124px;
 	width:300px;

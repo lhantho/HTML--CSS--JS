@@ -3,13 +3,15 @@ function adddiplome()
 {
 	if (clicdiplom == 0)
 	{
-		document.getElementById("diplomes").style.visibility = "visible" ; 
+		document.getElementById("diplomes").style.visibility = "visible" ;
+		document.getElementById("code_html_gauche").style.visibility = "hidden" ; 
 		clicdiplom = 1;
 		return;
 	}
 	else (clicdiplom == 1)
 	{
 		document.getElementById("diplomes").style.visibility = "hidden" ; 
+		document.getElementById("code_html_gauche").style.visibility = "visible" ;
 		clicdiplom = 0;
 		
 	}
@@ -22,12 +24,14 @@ function addmetier()
 	if (clicmetier == 0)
 	{
 		document.getElementById("metier").style.visibility = "visible" ; 
+			document.getElementById("code_html_droite").style.visibility = "hidden" ; 
 		clicmetier = 1;
 		return;
 	}
 	else (clicmetier == 1)
 	{
 		document.getElementById("metier").style.visibility = "hidden" ; 
+		document.getElementById("code_html_droite").style.visibility = "visible" ; 
 		clicmetier = 0;
 		
 	}
@@ -101,12 +105,14 @@ function reduire_infospriv() {
 
 function reduire_metier() {
 	document.getElementById("metier").style.visibility ="hidden" ;
+	document.getElementById("code_html_droite").style.visibility = "visible" ; 
 	clicmetier = 0;
 }
 
 
 function reduire_diplomes() {
 	document.getElementById("diplomes").style.visibility ="hidden" ;
+	document.getElementById("code_html_gauche").style.visibility = "visible" ;
 	clicdiplom = 0;
 }
 

@@ -78,6 +78,40 @@ h2 {
 	top:0px;	
 }
 
+
+.code_html_gauche {
+	padding:10px;
+	top:250px;
+	height:200px;
+	width:500px; 
+	resize:none;
+	color: black;
+	left:10px; 
+	position:absolute;
+	text-align:center;
+	}
+
+.code_html_droite {
+	padding:10px;
+	top:250px;
+	height:200px; 
+	width:500px; 
+	resize:none;
+	color: black;
+	right:10px; 
+	position:absolute;
+	text-align:center;
+
+}
+
+#code_html_droite:hover {
+	transform: rotate(7deg);
+}
+
+#code_html_gauche:hover {
+	transform: rotate(7deg);
+}
+
 #photo {
 	width:150px;
 	height:90%;
@@ -142,6 +176,7 @@ h2 {
 	height:auto;
 	visibility:hidden;
 	box-shadow: 10px 10px 5px 10px #cbcefb;
+	padding:5px;
 	
 }
 
