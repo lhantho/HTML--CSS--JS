@@ -1,20 +1,119 @@
-function addcontenu() {
-	document.getElementById("0").style.visibility = "hidden" ;
-	document.getElementById("-1").style.visibility = "hidden" ;
-	document.getElementById("1").style.visibility = "visible" ;
+clicdiplom = 0;
+function adddiplome()
+{
+	if (clicdiplom == 0)
+	{
+		document.getElementById("diplomes").style.visibility = "visible" ; 
+		clicdiplom = 1;
+		return;
+	}
+	else (clicdiplom == 1)
+	{
+		document.getElementById("diplomes").style.visibility = "hidden" ; 
+		clicdiplom = 0;
+		
+	}
+} 
+
+
+clicmetier = 0;
+function addmetier()
+{
+	if (clicmetier == 0)
+	{
+		document.getElementById("metier").style.visibility = "visible" ; 
+		clicmetier = 1;
+		return;
+	}
+	else (clicmetier == 1)
+	{
+		document.getElementById("metier").style.visibility = "hidden" ; 
+		clicmetier = 0;
+		
+	}
+} 
+
+clicpriv = 0;
+function addpriv()
+{
+	if (clicpriv == 0)
+	{
+		document.getElementById("infopriv").style.visibility = "visible" ; 
+		clicpriv = 1;
+		return;
+	}
+	else (clicpriv == 1)
+	{
+		document.getElementById("infopriv").style.visibility = "hidden" ; 
+		clicpriv = 0;
+		
+	}
+} 
+
+cliccontact = 0;
+function contact()
+{
+	if (cliccontact == 0)
+	{
+		document.getElementById("contact").style.visibility = "visible" ; 
+		cliccontact = 1;
+		return;
+	}
+	else (cliccontact == 1)
+	{
+		document.getElementById("contact").style.visibility = "hidden" ; 
+		cliccontact = 0;
+		
+	}
+} 
+
+
+
+cliclangue = 0;
+function langue()
+{
+	if (cliclangue == 0)
+	{
+		document.getElementById("langue").style.visibility = "visible" ; 
+		cliclangue = 1;
+		return;
+	}
+	else (cliclangue == 1)
+	{
+		document.getElementById("langue").style.visibility = "hidden" ; 
+		cliclangue = 0;
+		
+	}
+} 
+
+
+function reduire_langue() {
+	document.getElementById("langue").style.visibility ="hidden" ;
+	cliclangue = 0;
 }
 
-function contenuon() {
-	document.getElementById("0").style.visibility = "visible" ;
-	document.getElementById("1").style.visibility = "hidden" ;
-	document.getElementById("-1").style.visibility = "visible" ;
+
+function reduire_infospriv() {
+	document.getElementById("infopriv").style.visibility ="hidden" ;
+	clicpriv = 0;
 }
 
-function changebackground() {
 
-	document.body.style.backgroundImage = "url('http://fullhdpictures.com/wp-content/uploads/2016/01/Great-Tulip-Wallpaper.jpg')";
+function reduire_metier() {
+	document.getElementById("metier").style.visibility ="hidden" ;
+	clicmetier = 0;
 }
-function changebackground2() {
 
-	document.body.style.backgroundImage = "url('http://fullhdpictures.com/wp-content/uploads/2016/01/Great-Tulip-Wallpaper.jpg')";
+
+function reduire_diplomes() {
+	document.getElementById("diplomes").style.visibility ="hidden" ;
+	clicdiplom = 0;
 }
+
+
+function reduire_contact() {
+	document.getElementById("contact").style.visibility ="hidden" ;
+	cliccontact = 0;
+}
+
+

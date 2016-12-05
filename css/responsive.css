@@ -1,0 +1,63 @@
+@media screen and (max-width: 1000px) {
+  #langue {
+    width:100px;
+    height:auto;
+	box-shadow:none;
+	float:left;
+		
+  }
+   #contact {
+    width:300px;
+    height:auto;
+    left:0;
+    top:300px;
+	box-shadow:none;
+    float:left;
+   }
+    #diplomes {
+	right:0;
+	width:300px;
+	box-shadow:none;
+	text-align:left;
+
+    }
+    #metier {
+	right:0;
+	top:124px;
+	width:300px;
+	box-shadow:none;
+	text-align:left;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	#langue {
+	top:200%;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	left:0;
+	box-shadow:none;
+	float:left;
+	display:inline;
+	}
+
+	#contact {
+	left:0;
+	top:550px;
+	border:none;
+	box-shadow:none;
+	}
+
+	#diplomes {
+	left:0;
+	top:650px;
+	box-shadow:none;
+	}
+
+	#metier {
+	left:0;
+	top:800px;
+	box-shadow:none;
+	}
+}

@@ -1,0 +1,191 @@
+html, body {
+	height:100%;
+	width:99%;
+	margin:0px;
+}
+
+h1 {
+	
+}
+
+h2 {
+	font-size:15px;
+}
+
+.droite {
+	float:right;
+	margin-right:10%;
+}
+.gauche {
+	float:left;	
+	margin-left:10%;	
+}
+
+.droite ul {
+	width:100%;
+	list-style:none;
+	min-width:30%;
+}
+
+.gauche ul {
+	width:100%;
+	list-style:none;
+	min-width:30%;
+}
+.nav {
+	display: flex;
+	justify-content : space-around;
+	flex-wrap: nowrap;
+	max-width:98%;
+	width:100%;
+	top:0px;
+	left:0px;
+	right:0px;
+	height:30px;	
+	background-color:black;
+	color:white;	
+	text-decoration:none;
+	list-style:none;
+	padding:2%; 	
+
+}
+
+.nav a {
+
+	margin-left:1px;
+	padding:20px;
+	text-decoration:none;
+	color:white;
+}
+
+.contenu {
+	text-align:center;
+	margin-top:8%;
+	width:100%;
+	height:auto;
+	padding:10px;
+}
+
+
+.reduire {
+	height:15px;
+	width:15px;
+	border:1px solid black;	
+	border-right:none;
+	border-top:none;	
+	position:absolute;
+	right:0px;
+	top:0px;	
+}
+
+#photo {
+	width:150px;
+	height:90%;
+	opacity:0.9;
+}
+
+#photo:hover {
+	box-shadow: 10px 10px 5px 10px #cbcefb;
+}
+
+#input {
+	background-color:black;
+	border:none;
+	color:white;
+	cursor:pointer;
+}
+
+#input:hover {
+
+	border-top:1px solid red;
+	border-bottom:1px solid white;
+}
+
+#diplomes {
+	height:auto; 
+	width:400px; 
+	position:absolute; 
+	top:250px;
+	visibility:hidden;
+	box-shadow: 10px 10px 5px 10px #cbcefb;
+	text-align:left;
+}
+
+#metier {
+	top:250px;
+	height:auto; 
+	width:400px; 
+	right:10px; 
+	position:absolute;
+	visibility:hidden;
+	text-align:left;
+	box-shadow: 10px 10px 5px 10px #cbcefb;
+}
+
+#infopriv {
+	height:auto; 
+	width:90%; 
+	position:absolute;
+	margin-left:5%;
+	margin-left:5%;
+	visibility:hidden;
+	box-shadow: 10px 10px 5px 10px #cbcefb;
+	padding-left:15px;
+	padding-right:15px;
+}
+#langue {
+	text-align:center;
+	position: absolute; 
+	left:10px;
+	top: 130px;
+	width:500px;
+	height:auto;
+	visibility:hidden;
+	box-shadow: 10px 10px 5px 10px #cbcefb;
+	
+}
+
+#langue ul li {
+	list-style:none;
+	display:inline;
+}
+
+#contact {
+	position: absolute; 
+	right:10px;
+	top: 130px;
+	width:500px;
+	height:auto;
+	visibility:hidden;
+	box-shadow: 10px 10px 5px 10px #cbcefb;
+	
+}
+
+#contact ul li {
+
+}
+
+#icosql {
+	height:35px;
+}
+
+#icopython {
+	height:35px;
+}
+
+#icojs {
+	height:35px;
+}
+
+#icophp {
+	height:35px;
+}
+
+#icohtml {
+	height:35px;
+}
+
+#icocss {
+	height:35px;
+}
+
