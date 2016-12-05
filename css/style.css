@@ -1,7 +1,10 @@
 html, body {
 	height:100%;
-	width:99%;
+	width:100%;
 	margin:0px;
+	overflow:hidden;
+	background: url('../img/silentmoon.jpg') no-repeat center fixed;
+	background-size:cover;
 }
 
 h1 {
@@ -36,12 +39,13 @@ h2 {
 	display: flex;
 	justify-content : space-around;
 	flex-wrap: nowrap;
-	max-width:98%;
+	max-width:100%;
 	width:100%;
 	top:0px;
 	left:0px;
 	right:0px;
 	height:30px;	
+	margin:0;
 	background-color:black;
 	color:white;	
 	text-decoration:none;
@@ -119,7 +123,7 @@ h2 {
 }
 
 #photo:hover {
-	box-shadow: 10px 10px 5px 10px #cbcefb;
+	box-shadow: 5px 5px 5px 5px#08082E;
 }
 
 #input {
@@ -140,9 +144,10 @@ h2 {
 	width:400px; 
 	position:absolute; 
 	top:250px;
-	visibility:hidden;
-	box-shadow: 10px 10px 5px 10px #cbcefb;
+	visibility: hidden;
+	box-shadow: 5px 5px 5px 5px#08082E;
 	text-align:left;
+	background-color:white;
 }
 
 #metier {
@@ -151,9 +156,10 @@ h2 {
 	width:400px; 
 	right:10px; 
 	position:absolute;
-	visibility:hidden;
+	visibility: hidden;
 	text-align:left;
-	box-shadow: 10px 10px 5px 10px #cbcefb;
+	box-shadow: 5px 5px 5px 5px#08082E;
+	background-color:white;
 }
 
 #infopriv {
@@ -162,21 +168,24 @@ h2 {
 	position:absolute;
 	margin-left:5%;
 	margin-left:5%;
-	visibility:hidden;
-	box-shadow: 10px 10px 5px 10px #cbcefb;
+	visibility: hidden;
+	box-shadow: 5px 5px 5px 5px #08082E;
 	padding-left:15px;
 	padding-right:15px;
+	background-color:white;
+	text-align:left;
 }
 #langue {
-	text-align:center;
+
 	position: absolute; 
 	left:10px;
 	top: 130px;
 	width:500px;
 	height:auto;
-	visibility:hidden;
-	box-shadow: 10px 10px 5px 10px #cbcefb;
+	visibility: hidden;
+	box-shadow: 5px 5px 5px 5px#08082E;
 	padding:5px;
+	background-color:white;
 	
 }
 
@@ -185,14 +194,20 @@ h2 {
 	display:inline;
 }
 
+#langue table {
+
+	margin: auto;
+}
+
 #contact {
 	position: absolute; 
 	right:10px;
 	top: 130px;
 	width:500px;
 	height:auto;
-	visibility:hidden;
-	box-shadow: 10px 10px 5px 10px #cbcefb;
+	visibility: hidden;
+	box-shadow: 5px 5px 5px 5px#08082E;
+	background-color:white;
 	
 }
 

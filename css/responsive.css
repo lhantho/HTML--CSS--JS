@@ -4,6 +4,17 @@
 
 
 @media screen and (max-width: 1000px) {
+  
+  #img_fb {
+		height:75px;
+		width:75px;
+	}
+	#img_linked {
+		height:75px;
+		width:75px;
+	}
+  
+  
   #langue {
     width:100px;
     height:auto;
@@ -37,8 +48,26 @@
 }
 
 @media screen and (max-width: 400px) {
+	#infopriv {
+		width:260px;
+		left: 10px;
+		right: 10px;
+		box-shadow:none;
+		text-align:left;
+		  }
+	.nav {
+		height:auto;
+	     }
+	#img_fb {
+		height:35px;
+		width:35px;
+	}
+	#img_linked {
+		height:35px;
+		width:35px;
+	}
 	#langue {
-	top:200%;
+	top: 1122px;
 	width:80%;
 	margin-left:10%;
 	margin-right:10%;
@@ -49,21 +78,24 @@
 	}
 
 	#contact {
-	left:0;
-	top:550px;
+	left: 10px;
+	right: 10px;
+	top:1050px;
 	border:none;
 	box-shadow:none;
 	}
 
 	#diplomes {
-	left:0;
-	top:650px;
+	left: 10px;
+	right: 10px;
+	top: 810px;
 	box-shadow:none;
 	}
 
 	#metier {
-	left:0;
-	top:800px;
+	top: 940px;
+	left: 10px;
+	right: 10px;
 	box-shadow:none;
 	}
 }
