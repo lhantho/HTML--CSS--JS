@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="Stylesheet" href="./css/style.css" >
+		<link rel="Stylesheet" href="./css/responsive.css" >
+		<title>Julien Leroy, CV</title>
+	</head>
+	<body>
+		<div class="nav">
+			<div class="gauche">
+			<input type="submit" name="contact" id="input" value="Contact" onclick="contact();" />
+			<input type="submit" name="langue" id="input" value="Langages" onclick="langue();"  	 />
+			</div>
+			<div class="droite">
+			<input type="submit" name="diplome" id="input" onclick="adddiplome();" value="Diplomes" />
+			<input type="submit" name="metier" id="input" onclick="addmetier();" value="Métiers" />
+			<input type="submit" name="infopriv" id="input" onclick="addpriv();" value="Qui suis-je" />
+			</div>
+		</div>
+		<div id="langue">
+			<img class="reduire" onclick="reduire_langue();" src="./img/croix.png" height="100%"/>
+			<table>
+				<tr>
+					<th><img src="./img/python.png" id="icopython"/></th>
+					<th><img src="./img/php.png" id="icophp"/></th>
+					<th><img src="./img/js.png" id="icojs"/></th>
+					<th><img src="./img/css.ico" id="icohtml"/></th>
+					<th><img src="./img/html.ico" id="icocss"/></th>
+					<th><img src="./img/sql.jpg" id="icosql"/></th>
+				</tr>
+				<tr>
+					<td>Python</td>
+					<td>PhP</td>
+					<td>JavaScript</td>
+					<td>HTML</td>
+					<td>CSS</td>
+					<td>SQL</td>
+				</tr>
+			</table>
+
+		</div>
+		<div id="contact">
+			<img class="reduire" onclick="reduire_contact();" src="./img/croix.png" height="100%"/>
+			<ul>
+				<li>Téléphone : 07.81.42.68.48</li>
+				<li>Email : Julienr.leroy@gmail.com</li>
+			</ul>
+		</div>
+		<div class="contenu">
+			<img id="photo" src="./img/moi.png"  />
+			<h1>Julien Leroy</h1>
+			<h2>Julienr.leroy@gmail.com</h2>
+			<div class="code_html_droite" id="code_html_droite">
+				<a href="https://www.linkedin.com/in/julien-leroy-411255133">
+					<img  height="150px;" width="150px;" alt="linked_img" id="img_linked" src="./img/linked.png" />
+				</a>
+			</div>
+
+		</div>
+		<div id="diplomes">
+			<img class="reduire" onclick="reduire_diplomes();" src="./img/croix.png" height="100%"/>
+			<ul>
+				<li>BAC PRO maintenance Equipement Industriels</li>
+				<li>BEP maintenance Equipement Industriels </li>
+				<li>BEP Electrotechnique</li>
+			</ul>
+		</div>
+	
+		<div class="code_html_gauche" id="code_html_gauche" >
+			<a href="https://www.facebook.com/profile.php?id=100014419061136">
+				<img height="150px;" width="150px;" alt="facebook_img" id="img_fb" src="./img/facebook.png" />	
+			</a>
+		</div>
+		
+		<div id="metier">
+			<img class="reduire" onclick="reduire_metier();"  src="./img/croix.png" height="100%"/>
+			<ul>
+				<li>2016 - AMD - Manutentionnaire</li>
+				<li>2016 - GLS - Manutentionnaire</li>
+				<li>2015 - Alphagomma - Techniciens de maintenance</li>
+			</ul>
+		</div>
+		<div id="infopriv">
+			<img class="reduire" onclick="reduire_infospriv();" src="./img/croix.png" height="100%"/>
+
+		Je me présente, Julien Leroy 24 ans, passioné par l'informatique depuis mon plus jeune âge, j'entreprend une formation en qualité de Développeur web mobile.
+
+		Venant d’un parcours atypique et passionné depuis toujours par les nouvelles technologies, je me suis orienté vers les études professionel pour au final changer de chemin et me vouer entièrement à l'informatique, et au développement web , ce qui m’a permis d’apprendre la programmation et les langages requis pour devenir un Développeur Web mobiles à pars entière.</div>
+		</div>
+			
+			<script src="./js/utils.js"></script>
+	</body>
+</html>
+	
