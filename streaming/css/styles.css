@@ -1,141 +1,146 @@
 body {
-	margin: 0px;
-	height:100%;
-	width:100%;
-	color: white;
-	background-color: red;
+	background: url("http://all4desktop.com/data_images/original/4238051-background.jpg");
 }
 
-.nav {
-	margin: 0px;
-	top: 0px;
-	right: 0px;
-	left: 0px;
-	height: 60px;
-	background-color: black;
-	position: absolute;
+.droite { 
+	float: right;
 }
 
-.nav ul li {
-	list-style: none;
-	display: inline-block;
-	}
-
-.nav a {
-	display: inline;
-	height: 20px;
-	text-align:center;
-	text-decoration: none;
-	color: white;
-	padding:20px;
-	}
-
-.nav a:hover {
-	background-color: black;
-	border-right: 1px solid white;
-	border-left: 1px solid white;
+.gauche {
+	float: left;
 }
 
-.nav input {
-	display: inline;
-	position: absolute;
-	right:80px;
-	top:10px;
-}
-
-#input_search {
-	right:105px;
-}
-
-#search {
-	position: absolute;
-	top:10px;
-	right: 25px;
-	height: 22px;
-	width: auto;
-	display: inline;
-	border: none;
-}
-.conteneur {
-	position: absolute;
-	top: 160px;
-	height:70%;
-	width:90%;
-	margin-right: 5%;
-	margin-left: 5%;
-}
-
-#gauche {
-	word-wrap: break-word;
-	width: 20%;	
-	height: 100%;
-	position: absolute;
-	background-color: purple;
-	left: 0px;
-	text-align: center; 
-}
-
-#tete_gauche {
-	background-color:black;
-	top:0px;
-	border:1px solid black;
-}
-
-#body_gauche {
-	text-align: left;
-	height: auto;
-	width:90%;
-	left: 0px;
-	position: absolute;	
-}
-
-#gauche ul li {
-	list-style: none;
-	margin-left: -20px;
-}
-
-#gauche a {
-	text-decoration: none;
-	color: white;
-}
-#droite {
-	word-wrap: break-word;
-	width:80%;
-	height: 100%;
-	position: absolute;
-	background-color: blue;
-	right: 0px;
-	text-align: center; 
-	user-select: none;
-}
-
-#tete_droite {
-	background-color:black;
-	top:0px;
-	border:1px solid black;
-}
-
-#body_droite {
-	margin:auto;
+.th {
+	padding: 5px;
 	text-align: center;
-	height: auto;
-	width:100%;
-	right: 0px;
-	position: absolute;
 }
 
-#body_droite table {
-	margin: auto;
+.td {
+	padding: 5px;
 }
 
 
+.affiche {
+	height: 100px;
+}
+
+.entete {
+	background-color: red;
+	height:46px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.entete ul li {
+	list-style: none;
+	margin-top: 10px;
+	display: inline-block;
+	margin-left: 7px;
+	margin-right: 7px; 
+}
+
+.entete a {
+	color: white;
+	text-decoration: none;
+}
+
+.entete a:hover {
+	color: black;
+	text-decoration: none;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+.menu {
+	background-color: red;
+	height:46px;
+	margin-top:20px;
+	padding: 10px;
+	color: white;
+}
+
+.menu ul li {
+	text-align: center;
+	display: inline;
+	padding: 2px;
+}
+
+.input_menu {
+	margin-top:-3px;
+	border: none;
+	width: 55%;
+	display: inline;
+}
+
+.input_search {
+	border: none;
+	
+}
+
+
+.logo {
+	text-align:center;
+	height:100px;
+	margin-top:20px;
+}
+
+.vue {
+	background-color: purple;
+	height: 600px;
+	word-wrap: break-word;
+	color: black;
+}
+
+.vue ul li {
+	list-style: none;
+	margin-left: -58px;
+}
+
+.film {
+	background-color: green;
+	height: 600px;
+	color: black;
+}
 
 .scroll {
-	overflow: scroll;
-	overflow-x:hidden;
-	height: 422px;
+	 overflow: scroll;
+	 overflow-x: hidden; 
 }
 
-.scroll th {
-	font-size:10px;
+footer { 
+	margin-top: 30px;
+	margin-bottom: 30px;
+	height: auto;
+	position: absolute;
+	background-color: black;
+	text-decoration: none;
+	text-align: center;
 }
+
+footer ul li {
+	color: white;
+	list-style: none;
+}
+
+.media {
+	margin-top: 180px;
+	background-color:red;
+	height: 500px;
+	border-radius: 5px;
+	margin-left: 17%;	
+}
+
+.media2 {
+	border-top: 5px solid black;
+	border-left: 5px solid black;
+	border-right: 5px solid black;
+	border-bottom: 5px solid black;
+	margin-top:10px;
+	height: 467px;
+}
+
+.media3 {
+	height: 23px;
+}
+
+
