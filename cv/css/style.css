@@ -24,6 +24,16 @@ h2 {
 	margin-left:10%;	
 }
 
+.middle {
+	margin-top:-10px;
+	margin-left: 20%;
+	margin-right: 20%;
+	}
+	
+.middle a {
+	text-decoration: none;
+	}
+	
 .droite ul {
 	width:100%;
 	list-style:none;
@@ -54,13 +64,6 @@ h2 {
 
 }
 
-.nav a {
-
-	margin-left:1px;
-	padding:20px;
-	text-decoration:none;
-	color:white;
-}
 
 .contenu {
 	text-align:center;
@@ -237,5 +240,35 @@ h2 {
 
 #icocss {
 	height:35px;
+}
+
+#icofb {
+	height:40px;
+	cursor: pointer;
+}
+
+#icofb:hover {
+	background-color: white;
+	border-radius: 100%;
+}
+
+#icotw {
+	height:40px;
+	cursor: pointer;
+}
+
+#icotw:hover {
+	background-color: white;
+	border-radius: 100%;
+}
+
+#icoin {
+	height:40px;
+	cursor: pointer;
+}
+
+#icoin:hover {
+	background-color: white;
+	border-radius: 100%;
 }
 

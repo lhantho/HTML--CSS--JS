@@ -1,5 +1,6 @@
 body {
 	background: url("http://all4desktop.com/data_images/original/4238051-background.jpg");
+	background-size: cover;
 }
 
 .droite { 
@@ -10,25 +11,28 @@ body {
 	float: left;
 }
 
-.th {
-	padding: 5px;
-	text-align: center;
+.affiche { 
+	height: 230px;
+	margin-top: 20px; 
 }
 
-.td {
-	padding: 5px;
+.affiche:hover {
+	opacity: 0.5;
 }
 
-
-.affiche {
-	height: 100px;
+.title {
+	position: absolute;
+	font-size:45px;
+	top: 30px;
+	color: white;
 }
 
 .entete {
-	background-color: red;
+	background-color: #283240;
 	height:46px;
 	text-align: center;
 	cursor: pointer;
+	box-shadow: 0px 2px 0px 0px #b2833f ;
 }
 
 .entete ul li {
@@ -47,12 +51,40 @@ body {
 .entete a:hover {
 	color: black;
 	text-decoration: none;
-	border-top: 1px solid white;
-	border-bottom: 1px solid white;
+}
+
+
+.video {
+	margin-bottom:10px;
+}
+.bande {
+	height: auto;
+	background-color: #283240;
+	left:0px;
+	right:0px;
+	margin-top:10px;
+	margin-bottom:20px;
+	text-align: center;
 }
 
 .menu {
-	background-color: red;
+	border-top: 2px solid #b2833f;
+	border-left: 2px solid #b2833f ;	
+	background-color: #283240;
+	height:46px;
+	margin-top:20px;
+	padding: 10px;
+	color: white;
+}
+
+.input_next {
+	text-align: center;
+	margin-bottom:20px;
+}
+.menu2 {
+	border-top: 2px solid #b2833f;	
+	border-right: 2px solid #b2833f;
+	background-color: #283240;
 	height:46px;
 	margin-top:20px;
 	padding: 10px;
@@ -85,10 +117,12 @@ body {
 }
 
 .vue {
-	background-color: purple;
+	background-color: #111B3F;
 	height: 600px;
 	word-wrap: break-word;
-	color: black;
+	color: white;
+	border-left: 2px solid #b2833f ;
+	border-bottom: 2px solid #b2833f ;
 }
 
 .vue ul li {
@@ -97,9 +131,48 @@ body {
 }
 
 .film {
-	background-color: green;
-	height: 600px;
-	color: black;
+	background-color: #002F2F;
+	height: 700px;
+	color: black;	
+	margin-top: -1px;
+	border-bottom: 2px solid #b2833f;
+	border-right: 2px solid #b2833f;
+}
+
+.media {
+	background-color: #002F2F;
+	height: 0px;
+	color: black;	
+	border-bottom: 2px solid #b2833f;
+	border-right: 2px solid #b2833f;
+	visibility: hidden;
+	color: white;
+	
+}
+
+.media li {
+	margin-top:20px;
+}
+
+.bas_scroll_film {
+	text-align: center;
+	padding:0px;
+}
+
+.haut_scroll_film {
+	text-align: center;
+	padding:0px;
+}
+
+.titre {
+	font-size: 18px;
+	margin-top: 2px;
+	left: 5px;
+	background-color: #151a22;
+	text-align: center;
+	color: white;
+	
+
 }
 
 .scroll {
@@ -115,6 +188,8 @@ footer {
 	background-color: black;
 	text-decoration: none;
 	text-align: center;
+	border-top: 3px dashed #b2833f ;
+	border-bottom: 3px dashed #b2833f ;
 }
 
 footer ul li {
@@ -122,25 +197,19 @@ footer ul li {
 	list-style: none;
 }
 
-.media {
-	margin-top: 180px;
-	background-color:red;
-	height: 500px;
-	border-radius: 5px;
-	margin-left: 17%;	
+.add label {
+	font-size:15px;
+	margin-left: -15px;
+	margin-top:5px;
 }
 
-.media2 {
-	border-top: 5px solid black;
-	border-left: 5px solid black;
-	border-right: 5px solid black;
-	border-bottom: 5px solid black;
-	margin-top:10px;
-	height: 467px;
+.view label {
+	font-size:15px;
+	margin-left: -15px;
+	margin-top: 5px;
 }
 
-.media3 {
-	height: 23px;
+.presentations_affiche {
+	margin-top:20px; 
+	height:50%;
 }
-
-
