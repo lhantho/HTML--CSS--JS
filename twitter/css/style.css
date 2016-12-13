@@ -1,0 +1,151 @@
+body {
+	background-image: url('../img/background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.haut_menu {
+	background-color: white;
+	height:46px;
+	margin-bottom: 80px;
+}
+
+.haut_menu ul li {
+	list-style: none;
+	display: inline;
+	color: grey;	
+}
+
+.home, .home a  {
+	position: absolute;
+	top:10px;
+	text-decoration: none;
+}
+
+.home:hover {
+	border-bottom: 3px solid blue;
+	text-decoration: none; 	
+}
+
+
+.about  {
+	position: absolute;
+	left:120px;
+	top:10px;
+	text-decoration: none;
+}
+
+.about:hover {
+	border-bottom: 3px solid blue; 	
+	text-decoration: none;
+}
+
+.langue, .langue a {
+	position: absolute;
+	right:120px;
+	top:10px;
+	text-decoration: none;
+}
+
+.langue:hover {
+	text-decoration: none;
+	border-bottom: 3px solid blue;
+}
+
+.droite {
+	float: right;
+}
+
+.container {
+}
+
+label  h1 {
+	color: white;
+	font-weight : bolder;
+}
+
+.input_login {
+	background-color: white;
+	border-radius:3px;
+	
+}
+
+.input_login a {
+	font-size:13px;
+}
+
+.input_login span {
+	font-size:13px; 
+}
+
+.ndc {
+	margin: 5px;
+	border-radius: 3px;
+	height:28px;
+}
+
+.mdp {
+	margin: 5px;
+	border-radius: 3px;
+	height:28px;
+}
+
+.login {
+	width: 33%;
+	height:28px;
+	background-color: #1da1f2;
+	border-color:#3b88c3;
+	color: white;
+}
+
+.checkbox {
+	margin: 10px;
+}
+
+.sign_up {
+	margin-top:20px;
+	background-color: white;
+	border-radius:3px;
+		
+}
+
+.name {
+	margin: 5px;
+	border-radius: 3px;
+	height:28px;
+}
+
+.email {
+	margin: 5px;
+	border-radius: 3px;
+	height:28px;
+}
+
+.pass {
+	margin: 5px;
+	border-radius: 3px;
+	height:28px;
+}
+
+.sign_up_tw {
+	background-color:#fab81e;
+	margin:10px;
+	border-color: #f1a02a;
+}
+
+footer { 
+	height: auto;
+	bottom: -170px;
+	text-align: center;
+}
+
+footer a {
+	color: grey;
+	text-decoration: none;
+}
+
+footer ul li {
+	display: inline;
+	color: white;
+	list-style: none;
+}
