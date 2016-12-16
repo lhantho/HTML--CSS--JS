@@ -1,0 +1,144 @@
+	html {
+	margin:0px;
+	padding:0px;
+}
+header {
+	color: white;
+	
+}
+
+header ul li {
+	list-style:none;
+	display: inline-block;
+}
+
+header a {
+	color: white;
+	text-decoration: none;
+}
+
+header a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.droite {
+	float: right;
+	margin-right: 10%;
+}	
+
+.orange {
+	background-color: orange;	
+	height: auto;
+	padding: 8px 5px;
+}
+
+#input_search {
+	margin-top: 9px;
+}
+
+.center {
+	text-align: center;
+}
+
+.menu {
+	padding: 7px 5px;
+}
+
+.menu li {
+	display: inline-block;
+	list-style: none;
+}
+
+.head {	
+		background-color:#16212c;
+}
+
+.menu2 {
+	padding: 3px;
+}
+
+.menu3 {
+	background-color: red;
+	color: white;
+	padding: 15px;
+}
+
+.menu4 { 
+	background-color: #2d3143; 
+	color: white;
+}
+
+.menu4 li {
+	padding: 15px;
+}
+
+.entete_1 {
+	background-color: red;
+	color: white;
+	padding-right: 10px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 7px;
+}
+
+.entete_2 {
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 180px;
+	margin-left: -39px;
+	background-color: #2d3143;
+}
+
+.entete_contenu {
+	margin-top: 20px;	
+}
+
+#International {
+	border-top: 4px solid lightblue;
+}
+
+#Politique {
+	border-top: 4px solid blue; 
+}
+
+#Societe {
+	border-top: 4px solid red;
+}
+
+#eco {
+	border-top: 4px solid red;
+}
+
+#culture {
+	border-top: 4px solid pink;
+}
+
+#idea {
+	border-top: 4px solid darkgreen;
+}
+
+#planete {
+	border-top: 4px solid lightgreen;
+}
+
+#sport {
+	border-top: 4px solid greenYellow;
+}
+
+#science {
+	border-top: 4px solid cyan;
+}
+
+#pixel {
+	border-top: 4px solid lawngreen;
+}
+
+#campus {
+	border-top: 4px solid orange;
+}
+
+#mag {
+	border-top: 4px solid black;
+}
