@@ -73,28 +73,22 @@ header a:hover {
 	padding: 15px;
 }
 
-.entete_1 {
+.temoin {
 	background-color: red;
-	color: white;
-	padding-right: 10px;
-	padding-top: 7px;
-	padding-bottom: 7px;
-	padding-left: 7px;
+	padding-top:4px;
+	padding-bottom:3px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
-.entete_2 {
-	padding-top: 7px;
-	padding-left: 7px;
-	padding-bottom: 7px;
-	padding-right: 180px;
-	margin-left: -39px;
+.entete {
+	margin-left:-24px;
 	background-color: #2d3143;
-}
+	padding-bottom: 24px;
+	padding-right: 180px;
+	
 
-.entete_contenu {
-	margin-top: 20px;	
 }
-
 #International {
 	border-top: 4px solid lightblue;
 }
